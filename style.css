@@ -1,0 +1,28 @@
+
+h1{
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.table{
+    display: table;
+    margin: auto;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+}
+.binary{
+    font-size: 2em; 
+    text-align: right;
+    font-family: monospace;
+}
+.decimal{
+    padding-left: 1em;
+}
+.highlight{
+    color: #D45500;
+}

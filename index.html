@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>syracuse</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+        <h1>La suite de Syracuse</h1>
+        <div class="controls">
+            <form id="run">
+                <input id="entry" type="number" placeholder="premier terme">
+                <input id="speed" type="range" >
+                <input id="action" type="button" value="lancer"/>
+            </form>
+            <label for="skip-even">Passer les cas pairs</label>
+            <input id="skip-even" type="checkbox" /><br/>
+            <label for="highlight-numbers">Mettre en valeur les nombres séparés par "," : </label>
+            <input id="highlight-numbers" type="text"/>
+        </div>
+    </header>
+    <aside>
+        <div class="table">
+        </div>
+    </aside>
+        <script src="script.js"></script>
+    </body>
+</html>
